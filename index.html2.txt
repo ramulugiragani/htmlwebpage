@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: red;
+        }
+        p {
+            color: white;
+            line-height: 1.6;
+        }
+        #button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>A LOVE LETTER TO MY DG </h1>
+    <p>"My dearest DG, as I stand here, surrounded by the beauty of this moment, I am overwhelmed by the depth of my feelings for you. From the first moment our eyes met, I knew that you were the one who would forever hold the key to my heart. Today, as I take this leap of faith, I am filled with an overwhelming sense of joy and anticipation, for I cannot imagine a future without you by my side. You are my confidante, my inspiration, and my greatest love. With every beat of my heart, I am reminded of the countless reasons why I cherish you. So, with all the love in my soul and all the courage in my being, I ask: DG, will you do me the honor of becoming my partner in this beautiful journey of life? Will you stand beside me, through all the joys and challenges that lie ahead, as my beloved wife? I promise to cherish, support, and adore you for all eternity. With you, my dreams are brighter, my heart is fuller, and my life is infinitely more meaningful. So, my love, what do you say? Will you make me the happiest person alive and say 'yes' to forever with me?"</p>
+    <button id="button">Click Me</button>
+    <p id="message"></p>
+</div>
+
+<script>
+    // JavaScript code
+    document.getElementById("button").addEventListener("click", function() {
+        document.getElementById("message").textContent = "I LOVE YOU DG"
+         });
+</script>
+
+</body>
+</html>
